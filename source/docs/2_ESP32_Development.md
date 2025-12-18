@@ -6,7 +6,7 @@
 
 The example in this section uses an ESP32 microcontroller and an ESP32 expansion board for development, with power supplied via a USB cable. The bus servo is connected to the debugging board, which is powered by an 11.1 V lithium battery. The ESP32 microcontroller and the debugging board are then connected through the serial pins using Dupont wires.
 
-<img src="../_static/media/chapter_1/section_3/image10.png" class="common_img" style="width:800px;"/>
+<img src="../_static/media/chapter_1/section_3/image10.png" class="common_img" style="width:600px;"/>
 
 > [!NOTE]
 > 
@@ -26,7 +26,7 @@ Install Arduino IDE software on PC. The software package is stored in [2. Softwa
 > 
 > **Before running this example, ensure that the jumpers on the debugging board are installed on the Servo and TTL pins. Otherwise, communication will not function properly.**
 > 
-> <img src="../_static/media/chapter_1/section_3/image0.png" class="common_img" style="width:500px;"/>
+> <img src="../_static/media/chapter_1/section_3/image0.png" class="common_img" style="width:300px;"/>
 > 
 
 

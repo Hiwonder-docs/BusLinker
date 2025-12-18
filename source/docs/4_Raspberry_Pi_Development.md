@@ -6,7 +6,7 @@
 
 This example uses a Raspberry Pi 5 controller powered by a 5 V adapter. The bus servo is connected to the debugging board, which is powered by an 11.1 V lithium battery. Finally, the debugging board is connected to any USB port of the Raspberry Pi 5 using a Type-C cable.
 
-<img src="../_static/media/chapter_1/section_2/image49.png" class="common_img" style="width:800px;"/>
+<img src="../_static/media/chapter_1/section_2/image49.png" class="common_img" style="width:500px;"/>
 
 > [!NOTE]
 > 
@@ -28,8 +28,7 @@ Drag the program and SDK library files into the Raspberry Pi system image. In th
 > 
 > **Before running this example, ensure that the jumpers on the debugging board are installed on the Servo and USB pins. Otherwise, communication will not function properly.**
 > 
-> <img src="../_static/media/chapter_1/section_2/image47.png" class="common_img" style="width:500px;"/>
-> 
+> <img src="../_static/media/chapter_1/section_2/image47.png" class="common_img" style="width:300px;"/>
 
 
 
@@ -189,7 +188,7 @@ while True:
         break
 
     print(pos)
-    time.sleep(0.1)  # 延迟 2.5 秒
+    time.sleep(0.1)  # Delay for 0.1 seconds
 
 PortHandler.closePort()
 ```

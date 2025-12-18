@@ -6,7 +6,7 @@
 
 This example uses the STM32 controller for development, with power, program download, and debug data handled via the data cable. The bus servo is connected to the debugging board, which is powered by an 11.1 V lithium battery. The STM32F103RBT6 microcontroller and the debugging board are then connected through the serial pins using Dupont wires.
 
-<img src="../_static/media/chapter_1/section_4/image1.png" class="common_img" style="width:800px;"/>
+<img src="../_static/media/chapter_1/section_4/image1.png" class="common_img" style="width:600px;"/>
 
 > [!NOTE]
 > 
@@ -45,7 +45,7 @@ Install Keil MDK IDE software on PC. The software package is stored in [2. Softw
 > 
 > **Before running this example, ensure that the jumpers on the debugging board are installed on the Servo and TTL pins. Otherwise, communication will not function properly.**
 
-<img src="../_static/media/chapter_1/section_4/image6.png" class="common_img" style="width:600px;"/>
+<img src="../_static/media/chapter_1/section_4/image6.png" class="common_img" style="width:300px;"/>
 
 
 
@@ -69,7 +69,7 @@ Connect the STM32F103RBT6 microcontroller to the computer and upload the compile
 
 After running the program, open the serial debug assistant, select the corresponding COM port, set the baud rate to 115200, and open the port. The debug assistant prints the sent data packets and the servo status information, which corresponds to the data frames returned by the servo.
 
-<img src="../_static/media/chapter_1/section_4/image7.png" class="common_img" style="width:200px;"/>
+<img src="../_static/media/chapter_1/section_4/image7.png" class="common_img" style="width:400px;"/>
 
 <img src="../_static/media/chapter_1/section_4/image8.png" class="common_img" style="width:800px;"/>
 

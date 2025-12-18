@@ -2,7 +2,7 @@
 
 ## 1.1 Introduction
 
-<img src="..\_static\media\chapter\section_1\image_1.jpg" class="common_img" style="width:600px;"/>
+<img src="..\_static\media\chapter\section_1\image_1.jpg" class="common_img" style="width:350px;"/>
 
 The BusLinker V3.0 Servo Debugging Board is a servo debugging tool used for servo testing and parameter configuration with the ServoStudio PC software. The debugging board can also communicate with microcontrollers via serial communication to control servos. Its main features are as follows:
 
@@ -24,7 +24,7 @@ The BusLinker V3.0 Servo Debugging Board is a servo debugging tool used for serv
 
 The interfaces of the BusLinker V3.0 Servo Debugging Board are shown in the table below.
 
-<img src="..\_static\media\chapter\section_2\image_1.png" class="common_img" style="width:600px;"/>
+<img src="..\_static\media\chapter\section_2\image_1.png" class="common_img" style="width:350px;"/>
 
 <table border="1">
   <thead>
@@ -76,7 +76,7 @@ The interfaces of the BusLinker V3.0 Servo Debugging Board are shown in the tabl
 
 The BusLinker V3.0 board supports two power supply methods: terminal block power supply and DC connector power supply.
 
-<img src="..\_static\media\chapter\section_2\image_2.png" class="common_img" style="width:600px;"/>
+<img src="..\_static\media\chapter\section_2\image_2.png" class="common_img" style="width:450px;"/>
 
 The supported input voltage range is 5–14 V. A 12 V 5 A power adapter or an 11.1 V lithium battery may be used for the power supply.
 
@@ -149,7 +149,7 @@ The required materials are listed in the table below. Here, the HX-30HM magnetic
    
    If a lithium battery is not available, use a stable 12 V power supply.
 
-<img src="..\_static\media\chapter\section_3\image_1.png" class="common_img" style="width:800px;"/>
+<img src="..\_static\media\chapter\section_3\image_1.png" class="common_img" style="width:500px;"/>
 
 #### 1.3.1.2 Software Environment Setup
 
@@ -185,15 +185,15 @@ Installation steps:
 
 The following three images show the three basic servo positions — central position, maximum angle, and minimum angle. For visual demonstration, a servo horn is inserted as an example, with the label placed on the right-side servo arm to indicate the initial position.
 
-<img src="..\_static\media\chapter\section_3\image_6.png" class="common_img" style="width:400px;"/>
+<img src="..\_static\media\chapter\section_3\image_6.png" class="common_img" style="width:300px;"/>
 
 <center>Adjustable central position: servo angle 180°, corresponding position 2047</center>
 
-<img src="..\_static\media\chapter\section_3\image_7.png" class="common_img" style="width:400px;"/>
+<img src="..\_static\media\chapter\section_3\image_7.png" class="common_img" style="width:300px;"/>
 
 <center>Maximum position within one rotation: servo angle 360°, corresponding position 4095</center>
 
-<img src="..\_static\media\chapter\section_3\image_7.png" class="common_img" style="width:400px;"/>
+<img src="..\_static\media\chapter\section_3\image_7.png" class="common_img" style="width:300px;"/>
 
 <center>Minimum position within one rotation: servo angle 0°, corresponding position 0</center>
 
@@ -201,7 +201,7 @@ The following three images show the three basic servo positions — central posi
 
 1. Open the BusLinker V3.0 board software located at [2. Softwares / Servo Debugging Board Software](https://drive.google.com/drive/folders/19xPsh_8OnDMBHe_g1RRZSTcbwcvie8lP). On the left side of the interface, select the serial port, then click the button to open the port. The default baud rate is 1,000,000, then click **Connect**.
 
-<img src="..\_static\media\chapter\section_3\image_8.png" class="common_img" style="width:300px;"/>
+<img src="..\_static\media\chapter\section_3\image_8.png" class="common_img" style="width:200px;"/>
 
 2. After the serial port is connected, click **Scan** in the **Dashboard**. The software will scan servos with IDs from 1 to 253. The detected servos will be displayed in the interface.
 

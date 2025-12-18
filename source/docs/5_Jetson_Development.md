@@ -6,7 +6,7 @@
 
 This example uses a Jetson Nano controller powered by a 5 V adapter. The bus servo is connected to the debugging board, which is powered by an 11.1 V lithium battery. Finally, the debugging board is connected to any USB port of the Jetson Nano using a Type-C cable.
 
-<img src="../_static/media/chapter_1/section_2/image51.png" class="common_img" style="width:800px;"/>
+<img src="../_static/media/chapter_1/section_2/image51.png" class="common_img" style="width:600px;"/>
 
 > [!NOTE]
 > 
@@ -32,8 +32,7 @@ Drag the program and SDK library files into the Jetson Nano system image. In thi
 > 
 > **Before running this example, ensure that the jumpers on the debugging board are installed on the Servo and USB pins. Otherwise, communication will not function properly.**
 > 
-> <img src="../_static/media/chapter_1/section_2/image47.png" class="common_img" style="width:500px;"/>
-> 
+> <img src="../_static/media/chapter_1/section_2/image47.png" class="common_img" style="width:300px;"/>
 
 
 ### 5.2.1 Reading the Servo Status
