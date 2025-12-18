@@ -10,8 +10,6 @@ This example uses a Raspberry Pi 5 controller powered by a 5 V adapter. The bus 
 
 > [!NOTE]
 > 
-> Note:
-> 
 > * **When using Hiwonder's lithium battery, connect the battery cable with the red wire to the positive (+) terminal and the black wire to the negative (–) terminal of the DC port.**
 > 
 > * **Before connecting the battery cables, make sure they are not already attached to the lithium battery. This prevents the risk of a short circuit caused by accidental contact between the positive and negative wires.**
