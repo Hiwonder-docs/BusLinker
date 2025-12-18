@@ -17,4 +17,4 @@ BusLinker
    docs/4_Raspberry_Pi_Development.md
    docs/5_Jetson_Development.md
    docs/Appendix.md
-   Download <https://drive.google.com/drive/folders/1OpglB5QZyvdZ0ZBmC6jgjg1QOUtnKKTs?usp=drive_link>
+   Download <https://drive.google.com/drive/folders/1yv1QZAjh_yLRWadZBb95nJ9dfWbHlKw_>
