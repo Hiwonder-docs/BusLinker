@@ -1,5 +1,9 @@
 # 1. BusLinker V3.0 Servo Debugging Board User Manual
 
+[TOC]
+
+
+
 ## 1.1 Introduction
 
 <img src="..\_static\media\chapter\section_1\image_1.jpg" class="common_img" style="width:350px;"/>
@@ -219,13 +223,13 @@ The following three images show the three basic servo positions — central posi
 
 <img src="..\_static\media\chapter\section_3\image_12.png" class="common_img" style="width:600px;"/>
 
-In this module, the servo ID and the baud rate for communication between the PC software and the servo can be changed. Servo IDs range from 1 to 253, and eight baud rate options are available.
+In this panel, the servo ID and the baud rate for communication between the PC software and the servo can be changed. Servo IDs range from 1 to 253, and eight baud rate options are available.
 
 ② **Control Mode — Operation Mode**
 
 <img src="..\_static\media\chapter\section_3\image_13.png" class="common_img" style="width:600px;"/>
 
-In this module, the servo can be set to three modes: **Position**, **Velocity (Closed-Loop)**, and **PWM (Open-Loop)**.
+In this panel, the servo can be set to three modes: **Position**, **Velocity (Closed-Loop)**, and **PWM (Open-Loop)**.
 
 In **Position** mode, the servo operates in servo mode. In **Velocity (Closed-Loop)** and **PWM (Open-Loop)** modes, the servo operates in motor mode.
 
@@ -233,7 +237,7 @@ In **Position** mode, the servo operates in servo mode. In **Velocity (Closed-Lo
 
 <img src="..\_static\media\chapter\section_3\image_14.png" class="common_img" style="width:600px;"/>
 
-This module is used to set the **Startup Torque** and the **Torque Limit**. The Startup Torque is the minimum output torque for startup, and the Torque Limit is the maximum output torque limit. Set 1000 = 100% × Stall Torque.
+This panel is used to set the **Startup Torque** and the **Torque Limit**. The Startup Torque is the minimum output torque for startup, and the Torque Limit is the maximum output torque limit. Set 1000 = 100% × Stall Torque.
 
 > [!NOTE]
 > 
@@ -264,7 +268,7 @@ Two parameters are used to adjust the servo speed error, ensuring motion at the 
 
 <img src="..\_static\media\chapter\section_3\image_18.png" class="common_img" style="width:1200px;"/>
 
-Thresholds for each module can be adjusted and the actions that trigger protection or alarms can be selected according to requirements.
+Thresholds for each panel can be adjusted and the actions that trigger protection or alarms can be selected according to requirements.
 
 * **Voltage** — Under Voltage and Over Voltage threshold, range 0–254, unit 0.1 V.
 
@@ -370,7 +374,7 @@ Click **Settings** in the left panel to enter the software system settings inter
 
 <img src="../_static/media/chapter/section_3/image_31.png" class="common_img" style="width:1200px;"/>
 
-Four module areas are available, including System Info, Interface, Visualization, and Update Rate.
+Four features are available, including System Info, Interface, Visualization, and Update Rate.
 
 ① System Info:
 
